@@ -19,9 +19,7 @@ Also known as the ‘Liebmann Method’ or the ‘Method of Successive Displacem
 
 $Ax = b \Rightarrow L^{’}x = b - Ux \Rightarrow$ 
 
-(Solution Iteration) $L^{’} x^{k+1} = b - Ux^{k} \Rightarrow$ 
-
-$x^{k+1} = L^{’-1} \left(b - Ux^{k}\right)$ 
+(Solution Iteration) $L^{’} x^{k+1} = b - Ux^{k} \Rightarrow x^{k+1} = L^{’-1} \left(b - Ux^{k}\right)$ 
 
 ## .txt files 
 Matrices have been provided as .txt files for testing. In the line
