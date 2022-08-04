@@ -1,5 +1,5 @@
 # Jacobi_Guass
-Solving linear equations with iterative algorithms in Python 
+**Solving linear equations with iterative algorithms in Python** 
 
 ## the Jacobi Method 
 Determines solutions of a strictly dominant system of linear equations. 
@@ -15,7 +15,7 @@ Solution Iteration: $x^{k+1}=D^{-1}\left(b-\left(L+U\right)x^{k}\right)$
 ## the Gauss Seidel Method 
 Though this method can be applied to any metric with non-zero elements on the diagonals, 
 convergence is only guaranteed if the the matrix is strictly diagonally dominant (similar to the Jacobi Method). 
-Also known as the ‘Liebmann Method’ or the ‘Method of Successive Displacement’. 
+Also known as the ‘*Liebmann Method*’ or the ‘*Method of Successive Displacement*’. 
 
 $Ax = b \Rightarrow L^{’}x = b - Ux \Rightarrow$ 
 
