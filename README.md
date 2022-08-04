@@ -10,7 +10,8 @@ $Ax = b$
 
 $A = D$ (diagonal) $+ L$ (Lower Triangular) $+ U$ (Upper Triangular)
 
-*Solution Iteration:* 
+*Solution Iteration:*
+
 $x^{k+1}=D^{-1}\left(b-\left(L+U\right)x^{k}\right)$ 
 
 ## the Gauss Seidel Method 
@@ -21,6 +22,7 @@ Also known as the ‘*Liebmann Method*’ or the ‘*Method of Successive Displa
 $Ax = b \Rightarrow L^{’}x = b - Ux \Rightarrow$ 
 
 *Solution Iteration:*
+
 $L^{’} x^{k+1} = b - Ux^{k} \Rightarrow x^{k+1} = L^{’-1} \left(b - Ux^{k}\right)$ 
 
 ## .txt files 
