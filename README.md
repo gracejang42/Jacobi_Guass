@@ -10,7 +10,8 @@ $Ax = b$
 
 $A = D$ (diagonal) $+ L$ (Lower Triangular) $+ U$ (Upper Triangular)
 
-Solution Iteration: $x^{k+1}=D^{-1}\left(b-\left(L+U\right)x^{k}\right)$ 
+*Solution Iteration:* 
+$x^{k+1}=D^{-1}\left(b-\left(L+U\right)x^{k}\right)$ 
 
 ## the Gauss Seidel Method 
 Though this method can be applied to any metric with non-zero elements on the diagonals, 
@@ -19,7 +20,8 @@ Also known as the ‘*Liebmann Method*’ or the ‘*Method of Successive Displa
 
 $Ax = b \Rightarrow L^{’}x = b - Ux \Rightarrow$ 
 
-(Solution Iteration) $L^{’} x^{k+1} = b - Ux^{k} \Rightarrow x^{k+1} = L^{’-1} \left(b - Ux^{k}\right)$ 
+*Solution Iteration:*
+$L^{’} x^{k+1} = b - Ux^{k} \Rightarrow x^{k+1} = L^{’-1} \left(b - Ux^{k}\right)$ 
 
 ## .txt files 
 Matrices have been provided as .txt files for testing. In the line
